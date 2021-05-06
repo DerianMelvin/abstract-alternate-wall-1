@@ -14,6 +14,7 @@
         gradient-set-1 : Use gradient color set 1 (black - blue)
       ]
 */
+import './css/main.css'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <div id="square-l-1" className="square size-l gradient-set-1"></div>
         <div id="square-l-2" className="square size-l gradient-set-1"></div>
         <div id="square-l-3" className="square size-l gradient-set-1"></div>
+        <div id="square-l-4" className="square size-l gradient-set-1"></div>
+        <div id="square-l-5" className="square size-l gradient-set-1"></div>
+        <div id="square-l-6" className="square size-l gradient-set-1"></div>
       </div>
     </div>
   );
