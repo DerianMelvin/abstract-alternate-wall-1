@@ -1,0 +1,23 @@
+.container-square-l {
+  position: absolute;
+  display: flex;
+  transform: translate(-10rem);
+}
+
+.square {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  transform: rotateZ(45deg);
+  background-color: darkblue;
+}
+
+.size-l {
+  width: calc(20rem * 1.5);
+  height: calc(20rem * 1.5);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=main.css.map */
