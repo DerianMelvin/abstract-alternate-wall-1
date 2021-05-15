@@ -1,0 +1,34 @@
+@use "variables" as *;
+@use "mixins" as *;
+/*
+  ==========================
+    Globals
+  ==========================
+*/
+.square {
+  position: absolute;
+
+  width: $size;
+  height: $size;
+}
+
+.size-l {
+  width: calc(#{$size} * 1.6);
+  height: calc(#{$size} * 1.6);
+}
+
+.theme-set-1 {
+  @include square-theme-1;
+}
+
+/*
+  ==========================
+    ID
+  ==========================
+*/
+@each $num, $top, $left in $squares-l {
+  #square-l-#{$num} {
+    top: #{$top};
+    left: #{$left};
+  }
+}
