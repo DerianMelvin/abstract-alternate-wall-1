@@ -3,8 +3,20 @@
   1. Variables
   ==========================
 */
+$squares-l: // num, top, left
+  "1" 17rem -10rem, 
+  "2" -10rem 19rem, 
+  "3" 23rem 35rem, 
+  "4" 3rem 53rem,
+  "5" 18rem 78rem;
+
 $size: 20rem;
-$color: darkblue;
+
+@mixin square-theme-1 {
+  background: linear-gradient(45deg, hsl(231, 66%, 11%) 7.58%, hsl(231, 83%, 37%) 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+}
 
 /*
   ==========================
@@ -16,16 +28,11 @@ $color: darkblue;
 
   width: $size;
   height: $size;
-
-  transform: rotateZ(45deg);
-
-  background-color: $color;
-  border: 2px solid black;
 }
 
 .size-l {
-  width: calc(#{$size} * 1.5);
-  height: calc(#{$size} * 1.5);
+  width: calc(#{$size} * 1.6);
+  height: calc(#{$size} * 1.6);
 }
 
 /*
@@ -33,32 +40,11 @@ $color: darkblue;
   3. ID
   ==========================
 */
-#square-l-1 {
-  top: 2vh;
-  left: -10%;
-}
+@each $num, $top, $left in $squares-l {
+  #square-l-#{$num} {
+    @include square-theme-1;
 
-#square-l-2 {
-  top: 2vh;
-  left: 11%;
-}
-
-#square-l-3 {
-  top: 2vh;
-  left: 24%;
-}
-
-#square-l-4 {
-  top: 2vh;
-  left: 46%;
-}
-
-#square-l-5{
-  top: 2vh;
-  left: 69%;
-}
-
-#square-l-6 {
-  top: 2vh;
-  left: 80%;
+    top: #{$top};
+    left: #{$left};
+  }
 }
