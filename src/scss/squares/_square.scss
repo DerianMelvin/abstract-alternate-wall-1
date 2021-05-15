@@ -13,8 +13,13 @@
 }
 
 .size-l {
-  width: calc(#{$size} * 1.6);
-  height: calc(#{$size} * 1.6);
+  width: calc(#{$size} * 1.8);
+  height: calc(#{$size} * 1.8);
+}
+
+.size-m {
+  width: calc(#{$size} * 1.4);
+  height: calc(#{$size} * 1.4);
 }
 
 .theme-set-1 {
@@ -28,6 +33,13 @@
 */
 @each $num, $top, $left in $squares-l {
   #square-l-#{$num} {
+    top: #{$top};
+    left: #{$left};
+  }
+}
+
+@each $num, $top, $left in $squares-m {
+  #square-m-#{$num} {
     top: #{$top};
     left: #{$left};
   }
