@@ -1,23 +1,74 @@
-.container-square-l {
-  position: absolute;
-  display: flex;
-  transform: translate(-10rem);
-}
-
+/*
+  ==========================
+  1. Variables
+  ==========================
+*/
+/*
+  ==========================
+  2. Globals
+  ==========================
+*/
 .square {
-  margin: 2rem;
+  position: absolute;
   width: 20rem;
   height: 20rem;
-  transform: rotateZ(45deg);
-  background-color: darkblue;
 }
 
 .size-l {
-  width: calc(20rem * 1.5);
-  height: calc(20rem * 1.5);
+  width: calc(20rem * 1.6);
+  height: calc(20rem * 1.6);
+}
+
+/*
+  ==========================
+  3. ID
+  ==========================
+*/
+#square-l-1 {
+  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  top: 17rem;
+  left: -10rem;
+}
+
+#square-l-2 {
+  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  top: -10rem;
+  left: 19rem;
+}
+
+#square-l-3 {
+  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  top: 23rem;
+  left: 35rem;
+}
+
+#square-l-4 {
+  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  top: 3rem;
+  left: 53rem;
+}
+
+#square-l-5 {
+  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
+  top: 18rem;
+  left: 78rem;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */
