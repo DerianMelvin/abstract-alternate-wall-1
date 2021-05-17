@@ -19,6 +19,11 @@
   height: calc(20rem * 1.4);
 }
 
+.size-s {
+  width: calc(20rem * 0.9);
+  height: calc(20rem * 0.9);
+}
+
 .theme-set-1 {
   background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
   box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
@@ -80,11 +85,38 @@
   left: 79rem;
 }
 
+#square-s-1 {
+  top: -7rem;
+  left: -7rem;
+}
+
+#square-s-2 {
+  top: 14rem;
+  left: 14rem;
+}
+
+#square-s-3 {
+  top: -12rem;
+  left: 48rem;
+}
+
+#square-s-4 {
+  top: 36rem;
+  left: 70rem;
+}
+
+#square-s-5 {
+  top: -8rem;
+  left: 78rem;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  position: relative;
   overflow: hidden;
+  background: #0a0f2f 7.58%;
 }/*# sourceMappingURL=main.css.map */
