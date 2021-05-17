@@ -35,6 +35,14 @@ function App() {
         <div id="square-m-4" className="square size-m theme-set-1"></div>
         <div id="square-m-5" className="square size-m theme-set-1"></div>
       </div>
+
+      <div className="container-square-s">
+        <div id="square-s-1" className="square size-s theme-set-1"></div>
+        <div id="square-s-2" className="square size-s theme-set-1"></div>
+        <div id="square-s-3" className="square size-s theme-set-1"></div>
+        <div id="square-s-4" className="square size-s theme-set-1"></div>
+        <div id="square-s-5" className="square size-s theme-set-1"></div>
+      </div>
     </div>
   );
 }
