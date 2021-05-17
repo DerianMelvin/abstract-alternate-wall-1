@@ -22,6 +22,11 @@
   height: calc(#{$size} * 1.4);
 }
 
+.size-s {
+  width: calc(#{$size} * 0.9);
+  height: calc(#{$size} * 0.9);
+}
+
 .theme-set-1 {
   @include square-theme-1;
 }
@@ -40,6 +45,13 @@
 
 @each $num, $top, $left in $squares-m {
   #square-m-#{$num} {
+    top: #{$top};
+    left: #{$left};
+  }
+}
+
+@each $num, $top, $left in $squares-s {
+  #square-s-#{$num} {
     top: #{$top};
     left: #{$left};
   }
