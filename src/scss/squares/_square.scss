@@ -5,6 +5,8 @@
     Globals
   ==========================
 */
+
+// --- Shapes
 .square {
   position: absolute;
 
@@ -12,6 +14,7 @@
   height: $size;
 }
 
+// --- Sizes
 .size-l {
   width: calc(#{$size} * 1.8);
   height: calc(#{$size} * 1.8);
@@ -27,6 +30,7 @@
   height: calc(#{$size} * 0.9);
 }
 
+// --- Color themes
 .theme-set-1 {
   @include square-theme-1;
 }
@@ -36,23 +40,26 @@
     ID
   ==========================
 */
-@each $num, $top, $left in $squares-l {
+@each $num, $top, $left, $index in $squares-l {
   #square-l-#{$num} {
     top: #{$top};
     left: #{$left};
+    z-index: #{$index};
   }
 }
 
-@each $num, $top, $left in $squares-m {
+@each $num, $top, $left, $index in $squares-m {
   #square-m-#{$num} {
     top: #{$top};
     left: #{$left};
+    z-index: #{$index};
   }
 }
 
-@each $num, $top, $left in $squares-s {
+@each $num, $top, $left, $index in $squares-s {
   #square-s-#{$num} {
     top: #{$top};
     left: #{$left};
+    z-index: #{$index};
   }
 }
