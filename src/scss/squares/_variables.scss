@@ -1,5 +1,9 @@
-// CSS props
-// (id num), (top), (left), (z-index)
+/* 
+  ==========================
+    PROPERTIES - SQUARES
+  ==========================
+  (id num), (top), (left), (z-index)
+*/
 $squares-l:
 "1" 15rem -13rem 1, 
 "2" -10rem 19rem 1, 
@@ -21,13 +25,32 @@ $squares-s:
 "4" 36rem 70rem 3,
 "5" -8rem 78rem 3;
 
+// Base size
 $size: 20rem;
 
-// Animation
-// (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
+/* 
+  ==========================
+    ANIMATION - SQUARES
+  ==========================
+  (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
+*/
 $squares-l-anim:
-"1" anim-sq-l-1 2s ease-in-out 0s infinite alternate,
-"2" anim-sq-l-2 2.1s ease-in-out 0s infinite alternate,
-"3" anim-sq-l-3 2.2s ease-in-out 0s infinite alternate,
-"4" anim-sq-l-4 2.3s ease-in-out 0s infinite alternate,
-"5" anim-sq-l-5 2.4s ease-in-out 0s infinite alternate;
+"1" anim-sq-l-1 2.7s ease-in-out 0s infinite alternate,
+"2" anim-sq-l-2 2.5s ease-in-out 0s infinite alternate,
+"3" anim-sq-l-3 2.4s ease-in-out 0s infinite alternate,
+"4" anim-sq-l-4 2.6s ease-in-out 0s infinite alternate,
+"5" anim-sq-l-5 2.3s ease-in-out 0s infinite alternate;
+
+$squares-m-anim:
+"1" anim-sq-m-1 2.6s ease-in-out 0s infinite alternate,
+"2" anim-sq-m-2 2.3s ease-in-out 0s infinite alternate,
+"3" anim-sq-m-3 2.5s ease-in-out 0s infinite alternate,
+"4" anim-sq-m-4 2.4s ease-in-out 0s infinite alternate,
+"5" anim-sq-m-5 2.7s ease-in-out 0s infinite alternate;
+
+$squares-s-anim:
+"1" anim-sq-s-1 2.3s ease-in-out 0s infinite alternate,
+"2" anim-sq-s-2 2.4s ease-in-out 0s infinite alternate,
+"3" anim-sq-s-3 2.6s ease-in-out 0s infinite alternate,
+"4" anim-sq-s-4 2.7s ease-in-out 0s infinite alternate,
+"5" anim-sq-s-5 2.5s ease-in-out 0s infinite alternate;
