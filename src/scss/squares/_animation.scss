@@ -1,5 +1,6 @@
 @use "variables" as *;
 
+// $squares-l-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-l-anim {
   #square-l-#{$num} {
     animation-name: $name;
@@ -12,6 +13,40 @@
 
   @keyframes #{$name} {
     from { transform: rotate(-45deg) translate(2rem, -2rem); }
-    to { transform: rotate(-45deg) translate(-3rem, 3rem); }
+    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
+  }
+}
+
+// $squares-m-anim
+@each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-m-anim {
+  #square-m-#{$num} {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+    animation-delay: $delay;
+    animation-iteration-count: $iteration;
+    animation-direction: $direction;
+  }
+
+  @keyframes #{$name} {
+    from { transform: rotate(-45deg) translate(2rem, -2rem); }
+    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
+  }
+}
+
+// $squares-s-anim
+@each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-s-anim {
+  #square-s-#{$num} {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+    animation-delay: $delay;
+    animation-iteration-count: $iteration;
+    animation-direction: $direction;
+  }
+
+  @keyframes #{$name} {
+    from { transform: rotate(-45deg) translate(2rem, -2rem); }
+    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
   }
 }
