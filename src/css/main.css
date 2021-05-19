@@ -1,3 +1,15 @@
+/* 
+  ==========================
+    PROPERTIES - SQUARES
+  ==========================
+  (id num), (top), (left), (z-index)
+*/
+/* 
+  ==========================
+    ANIMATION - SQUARES
+  ==========================
+  (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
+*/
 /*
   ==========================
     Globals
@@ -128,8 +140,8 @@
 #square-l-1 {
   -webkit-animation-name: anim-sq-l-1;
           animation-name: anim-sq-l-1;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  -webkit-animation-duration: 2.7s;
+          animation-duration: 2.7s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
@@ -145,7 +157,7 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 
@@ -154,14 +166,14 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 #square-l-2 {
   -webkit-animation-name: anim-sq-l-2;
           animation-name: anim-sq-l-2;
-  -webkit-animation-duration: 2.1s;
-          animation-duration: 2.1s;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
@@ -177,7 +189,7 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 
@@ -186,14 +198,14 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 #square-l-3 {
   -webkit-animation-name: anim-sq-l-3;
           animation-name: anim-sq-l-3;
-  -webkit-animation-duration: 2.2s;
-          animation-duration: 2.2s;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
@@ -209,7 +221,7 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 
@@ -218,14 +230,14 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 #square-l-4 {
   -webkit-animation-name: anim-sq-l-4;
           animation-name: anim-sq-l-4;
-  -webkit-animation-duration: 2.3s;
-          animation-duration: 2.3s;
+  -webkit-animation-duration: 2.6s;
+          animation-duration: 2.6s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
@@ -241,7 +253,7 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 
@@ -250,14 +262,14 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 #square-l-5 {
   -webkit-animation-name: anim-sq-l-5;
           animation-name: anim-sq-l-5;
-  -webkit-animation-duration: 2.4s;
-          animation-duration: 2.4s;
+  -webkit-animation-duration: 2.3s;
+          animation-duration: 2.3s;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
@@ -273,7 +285,7 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 
@@ -282,7 +294,327 @@
     transform: rotate(-45deg) translate(2rem, -2rem);
   }
   to {
-    transform: rotate(-45deg) translate(-3rem, 3rem);
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-m-1 {
+  -webkit-animation-name: anim-sq-m-1;
+          animation-name: anim-sq-m-1;
+  -webkit-animation-duration: 2.6s;
+          animation-duration: 2.6s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-m-1 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-m-1 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-m-2 {
+  -webkit-animation-name: anim-sq-m-2;
+          animation-name: anim-sq-m-2;
+  -webkit-animation-duration: 2.3s;
+          animation-duration: 2.3s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-m-2 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-m-2 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-m-3 {
+  -webkit-animation-name: anim-sq-m-3;
+          animation-name: anim-sq-m-3;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-m-3 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-m-3 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-m-4 {
+  -webkit-animation-name: anim-sq-m-4;
+          animation-name: anim-sq-m-4;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-m-4 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-m-4 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-m-5 {
+  -webkit-animation-name: anim-sq-m-5;
+          animation-name: anim-sq-m-5;
+  -webkit-animation-duration: 2.7s;
+          animation-duration: 2.7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-m-5 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-m-5 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-s-1 {
+  -webkit-animation-name: anim-sq-s-1;
+          animation-name: anim-sq-s-1;
+  -webkit-animation-duration: 2.3s;
+          animation-duration: 2.3s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-s-1 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-s-1 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-s-2 {
+  -webkit-animation-name: anim-sq-s-2;
+          animation-name: anim-sq-s-2;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-s-2 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-s-2 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-s-3 {
+  -webkit-animation-name: anim-sq-s-3;
+          animation-name: anim-sq-s-3;
+  -webkit-animation-duration: 2.6s;
+          animation-duration: 2.6s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-s-3 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-s-3 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-s-4 {
+  -webkit-animation-name: anim-sq-s-4;
+          animation-name: anim-sq-s-4;
+  -webkit-animation-duration: 2.7s;
+          animation-duration: 2.7s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-s-4 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-s-4 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+#square-s-5 {
+  -webkit-animation-name: anim-sq-s-5;
+          animation-name: anim-sq-s-5;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes anim-sq-s-5 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
+  }
+}
+
+@keyframes anim-sq-s-5 {
+  from {
+    transform: rotate(-45deg) translate(2rem, -2rem);
+  }
+  to {
+    transform: rotate(-45deg) translate(-2rem, 2rem);
   }
 }
 * {
