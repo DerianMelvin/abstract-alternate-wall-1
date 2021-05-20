@@ -30,10 +30,20 @@ $squares-s:
 "5" -8rem 78rem 3;
 
 // Color themes
-$theme-1: linear-gradient(45deg, hsl(231, 66%, 11%) 7.58%, hsl(231, 83%, 37%) 100%);
-$theme-2: linear-gradient(45deg, hsl(147, 94%, 58%) 7.58%, hsl(184, 97%, 54%) 100%);
-$theme-3: linear-gradient(45deg, hsl(29, 89%, 48%) 7.58%, hsl(61, 91%, 51%) 100%);
-$theme-4: linear-gradient(45deg, hsl(283, 91%, 5%) 7.58%, hsl(288, 90%, 50%) 100%);
+$theme-1-normal: hsl(231, 83%, 38%);
+$theme-2-normal: hsl(147, 94%, 46%);
+$theme-3-normal: hsl(29, 89%, 48%);
+$theme-4-normal: hsl(288, 90%, 50%);
+
+$theme-1-light: hsl(231, 83%, 43%);
+$theme-2-light: hsl(147, 94%, 51%);
+$theme-3-light: hsl(29, 89%, 53%);
+$theme-4-light: hsl(288, 90%, 55%);
+
+$theme-1-dark: hsl(231, 83%, 31%);
+$theme-2-dark: hsl(147, 94%, 39%);
+$theme-3-dark: hsl(29, 89%, 41%);
+$theme-4-dark: hsl(288, 90%, 43%);
 
 /* 
   ==========================
