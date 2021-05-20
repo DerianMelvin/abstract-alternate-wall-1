@@ -1,9 +1,13 @@
 /* 
   ==========================
-    PROPERTIES - SQUARES
+    PROPERTIES
   ==========================
-  (id num), (top), (left), (z-index)
 */
+
+// Base size
+$size: 20rem;
+
+// (id num), (top), (left), (z-index)
 $squares-l:
 "1" 15rem -13rem 1, 
 "2" -10rem 19rem 1, 
@@ -12,28 +16,32 @@ $squares-l:
 "5" 18rem 78rem 1;
   
 $squares-m:
-"1" -7rem 6rem 2, 
+"1" -11rem 6rem 2, 
 "2" 29rem 18rem 2, 
-"3" 5rem 33rem 2, 
+"3" 5rem 27rem 2, 
 "4" -4rem 57rem 2,
 "5" 7rem 79rem 2;
 
 $squares-s:
-"1" -7rem -7rem 3, 
-"2" 14rem 14rem 3, 
+"1" -2rem -7rem 3, 
+"2" 15rem 16rem 3, 
 "3" -12rem 48rem 3, 
 "4" 36rem 70rem 3,
 "5" -8rem 78rem 3;
 
-// Base size
-$size: 20rem;
+// Color themes
+$theme-1: linear-gradient(45deg, hsl(231, 66%, 11%) 7.58%, hsl(231, 83%, 37%) 100%);
+$theme-2: linear-gradient(45deg, hsl(147, 94%, 58%) 7.58%, hsl(184, 97%, 54%) 100%);
+$theme-3: linear-gradient(45deg, hsl(29, 89%, 48%) 7.58%, hsl(61, 91%, 51%) 100%);
+$theme-4: linear-gradient(45deg, hsl(283, 91%, 5%) 7.58%, hsl(288, 90%, 50%) 100%);
 
 /* 
   ==========================
-    ANIMATION - SQUARES
+    ANIMATION
   ==========================
-  (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
 */
+
+// (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
 $squares-l-anim:
 "1" anim-sq-l-1 2.7s ease-in-out 0s infinite alternate,
 "2" anim-sq-l-2 2.5s ease-in-out 0s infinite alternate,
