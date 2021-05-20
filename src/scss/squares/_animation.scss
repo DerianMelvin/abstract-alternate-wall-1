@@ -12,8 +12,8 @@
   }
 
   @keyframes #{$name} {
-    from { transform: rotate(-45deg) translate(2rem, -2rem); }
-    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
+    from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
+    to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
   }
 }
 
@@ -29,8 +29,8 @@
   }
 
   @keyframes #{$name} {
-    from { transform: rotate(-45deg) translate(2rem, -2rem); }
-    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
+    from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
+    to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
   }
 }
 
@@ -46,7 +46,7 @@
   }
 
   @keyframes #{$name} {
-    from { transform: rotate(-45deg) translate(2rem, -2rem); }
-    to { transform: rotate(-45deg) translate(-2rem, 2rem); }
+    from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
+    to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
   }
 }
