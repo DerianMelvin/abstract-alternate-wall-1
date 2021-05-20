@@ -3,50 +3,101 @@
 // $squares-l-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-l-anim {
   #square-l-#{$num} {
-    animation-name: $name;
-    animation-duration: $duration;
-    animation-timing-function: $timing;
-    animation-delay: $delay;
-    animation-iteration-count: $iteration;
-    animation-direction: $direction;
+    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-normal 40s linear infinite;
   }
 
   @keyframes #{$name} {
     from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
     to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
+  }
+
+  @keyframes theme-cycle-normal {
+    0% {
+      background: $theme-1-normal;
+    }
+
+    25% {
+      background: $theme-2-normal;
+    }
+
+    50% {
+      background: $theme-3-normal;
+    }
+
+    75% {
+      background: $theme-4-normal;
+    }
+
+    100% {
+      background: $theme-1-normal;
+    }
   }
 }
 
 // $squares-m-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-m-anim {
   #square-m-#{$num} {
-    animation-name: $name;
-    animation-duration: $duration;
-    animation-timing-function: $timing;
-    animation-delay: $delay;
-    animation-iteration-count: $iteration;
-    animation-direction: $direction;
+    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-dark 40s linear infinite;
   }
 
   @keyframes #{$name} {
     from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
     to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
+  }
+
+  @keyframes theme-cycle-dark {
+    0% {
+      background: $theme-1-dark;
+    }
+
+    25% {
+      background: $theme-2-dark;
+    }
+
+    50% {
+      background: $theme-3-dark;
+    }
+
+    75% {
+      background: $theme-4-dark;
+    }
+
+    100% {
+      background: $theme-1-dark;
+    }
   }
 }
 
 // $squares-s-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-s-anim {
   #square-s-#{$num} {
-    animation-name: $name;
-    animation-duration: $duration;
-    animation-timing-function: $timing;
-    animation-delay: $delay;
-    animation-iteration-count: $iteration;
-    animation-direction: $direction;
+    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-light 40s linear infinite;
   }
 
   @keyframes #{$name} {
     from { transform: rotate(-45deg) translate(1.5rem, -1.5rem); }
     to { transform: rotate(-45deg) translate(-1.5rem, 1.5rem); }
+  }
+
+  @keyframes theme-cycle-light {
+    0% {
+      background: $theme-1-light;
+    }
+
+    25% {
+      background: $theme-2-light;
+    }
+
+    50% {
+      background: $theme-3-light;
+    }
+
+    75% {
+      background: $theme-4-light;
+    }
+
+    100% {
+      background: $theme-1-light;
+    }
   }
 }
