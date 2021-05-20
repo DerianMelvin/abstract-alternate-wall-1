@@ -17,7 +17,7 @@
   width: 20rem;
   height: 20rem;
   position: absolute;
-  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.8);
   transform: rotate(-45deg);
 }
 
@@ -37,7 +37,7 @@
 }
 
 .theme-set-1 {
-  background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
+  background: #1029b1;
 }
 
 /*
@@ -136,18 +136,8 @@
 }
 
 #square-l-1 {
-  -webkit-animation-name: anim-sq-l-1;
-          animation-name: anim-sq-l-1;
-  -webkit-animation-duration: 2.7s;
-          animation-duration: 2.7s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-l-1 2.7s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+          animation: anim-sq-l-1 2.7s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-1 {
@@ -167,19 +157,43 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@-webkit-keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
+@keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
 #square-l-2 {
-  -webkit-animation-name: anim-sq-l-2;
-          animation-name: anim-sq-l-2;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-l-2 2.5s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+          animation: anim-sq-l-2 2.5s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-2 {
@@ -199,19 +213,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
 #square-l-3 {
-  -webkit-animation-name: anim-sq-l-3;
-          animation-name: anim-sq-l-3;
-  -webkit-animation-duration: 2.4s;
-          animation-duration: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-l-3 2.4s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+          animation: anim-sq-l-3 2.4s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-3 {
@@ -231,19 +252,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
 #square-l-4 {
-  -webkit-animation-name: anim-sq-l-4;
-          animation-name: anim-sq-l-4;
-  -webkit-animation-duration: 2.6s;
-          animation-duration: 2.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-l-4 2.6s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+          animation: anim-sq-l-4 2.6s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-4 {
@@ -263,19 +291,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
 #square-l-5 {
-  -webkit-animation-name: anim-sq-l-5;
-          animation-name: anim-sq-l-5;
-  -webkit-animation-duration: 2.3s;
-          animation-duration: 2.3s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-l-5 2.3s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+          animation: anim-sq-l-5 2.3s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-5 {
@@ -295,19 +330,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-normal {
+  0% {
+    background: #1029b1;
+  }
+  25% {
+    background: #07e46a;
+  }
+  50% {
+    background: #e7770d;
+  }
+  75% {
+    background: #c40df2;
+  }
+  100% {
+    background: #1029b1;
+  }
+}
 #square-m-1 {
-  -webkit-animation-name: anim-sq-m-1;
-          animation-name: anim-sq-m-1;
-  -webkit-animation-duration: 2.6s;
-          animation-duration: 2.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-m-1 2.6s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+          animation: anim-sq-m-1 2.6s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-1 {
@@ -327,19 +369,43 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@-webkit-keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
+@keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
 #square-m-2 {
-  -webkit-animation-name: anim-sq-m-2;
-          animation-name: anim-sq-m-2;
-  -webkit-animation-duration: 2.3s;
-          animation-duration: 2.3s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-m-2 2.3s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+          animation: anim-sq-m-2 2.3s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-2 {
@@ -359,19 +425,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
 #square-m-3 {
-  -webkit-animation-name: anim-sq-m-3;
-          animation-name: anim-sq-m-3;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-m-3 2.5s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+          animation: anim-sq-m-3 2.5s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-3 {
@@ -391,19 +464,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
 #square-m-4 {
-  -webkit-animation-name: anim-sq-m-4;
-          animation-name: anim-sq-m-4;
-  -webkit-animation-duration: 2.4s;
-          animation-duration: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-m-4 2.4s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+          animation: anim-sq-m-4 2.4s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-4 {
@@ -423,19 +503,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
 #square-m-5 {
-  -webkit-animation-name: anim-sq-m-5;
-          animation-name: anim-sq-m-5;
-  -webkit-animation-duration: 2.7s;
-          animation-duration: 2.7s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-m-5 2.7s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+          animation: anim-sq-m-5 2.7s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-5 {
@@ -455,19 +542,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-dark {
+  0% {
+    background: #0d2191;
+  }
+  25% {
+    background: #06c15a;
+  }
+  50% {
+    background: #c6650c;
+  }
+  75% {
+    background: #a90bd0;
+  }
+  100% {
+    background: #0d2191;
+  }
+}
 #square-s-1 {
-  -webkit-animation-name: anim-sq-s-1;
-          animation-name: anim-sq-s-1;
-  -webkit-animation-duration: 2.3s;
-          animation-duration: 2.3s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-s-1 2.3s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+          animation: anim-sq-s-1 2.3s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-1 {
@@ -487,19 +581,43 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@-webkit-keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
+  }
+}
+@keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
+  }
+}
 #square-s-2 {
-  -webkit-animation-name: anim-sq-s-2;
-          animation-name: anim-sq-s-2;
-  -webkit-animation-duration: 2.4s;
-          animation-duration: 2.4s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-s-2 2.4s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+          animation: anim-sq-s-2 2.4s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-2 {
@@ -519,19 +637,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
+  }
+}
 #square-s-3 {
-  -webkit-animation-name: anim-sq-s-3;
-          animation-name: anim-sq-s-3;
-  -webkit-animation-duration: 2.6s;
-          animation-duration: 2.6s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-s-3 2.6s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+          animation: anim-sq-s-3 2.6s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-3 {
@@ -551,19 +676,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
+  }
+}
 #square-s-4 {
-  -webkit-animation-name: anim-sq-s-4;
-          animation-name: anim-sq-s-4;
-  -webkit-animation-duration: 2.7s;
-          animation-duration: 2.7s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-s-4 2.7s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+          animation: anim-sq-s-4 2.7s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-4 {
@@ -583,19 +715,26 @@
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
+@keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
+  }
+}
 #square-s-5 {
-  -webkit-animation-name: anim-sq-s-5;
-          animation-name: anim-sq-s-5;
-  -webkit-animation-duration: 2.5s;
-          animation-duration: 2.5s;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+  -webkit-animation: anim-sq-s-5 2.5s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+          animation: anim-sq-s-5 2.5s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-5 {
@@ -613,6 +752,23 @@
   }
   to {
     transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
+  }
+}
+@keyframes theme-cycle-light {
+  0% {
+    background: #132ec9;
+  }
+  25% {
+    background: #0df876;
+  }
+  50% {
+    background: #f2841c;
+  }
+  75% {
+    background: #ca25f4;
+  }
+  100% {
+    background: #132ec9;
   }
 }
 * {
