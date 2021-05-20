@@ -1,14 +1,12 @@
 /* 
   ==========================
-    PROPERTIES - SQUARES
+    PROPERTIES
   ==========================
-  (id num), (top), (left), (z-index)
 */
 /* 
   ==========================
-    ANIMATION - SQUARES
+    ANIMATION
   ==========================
-  (id num), (name), (duration), (timing function), (delay), (iteration count), (direction)
 */
 /*
   ==========================
@@ -16,30 +14,30 @@
   ==========================
 */
 .square {
-  position: absolute;
   width: 20rem;
   height: 20rem;
+  position: absolute;
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
 }
 
 .size-l {
-  width: calc(20rem * 1.8);
-  height: calc(20rem * 1.8);
+  width: calc(40rem);
+  height: calc(40rem);
 }
 
 .size-m {
-  width: calc(20rem * 1.4);
-  height: calc(20rem * 1.4);
+  width: calc(30rem);
+  height: calc(30rem);
 }
 
 .size-s {
-  width: calc(20rem * 0.9);
-  height: calc(20rem * 0.9);
+  width: calc(18rem);
+  height: calc(18rem);
 }
 
 .theme-set-1 {
   background: linear-gradient(45deg, #0a0f2f 7.58%, #1028ad 100%);
-  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
-  transform: rotate(-45deg);
 }
 
 /*
@@ -78,7 +76,7 @@
 }
 
 #square-m-1 {
-  top: -7rem;
+  top: -11rem;
   left: 6rem;
   z-index: 2;
 }
@@ -91,7 +89,7 @@
 
 #square-m-3 {
   top: 5rem;
-  left: 33rem;
+  left: 27rem;
   z-index: 2;
 }
 
@@ -108,14 +106,14 @@
 }
 
 #square-s-1 {
-  top: -7rem;
+  top: -2rem;
   left: -7rem;
   z-index: 3;
 }
 
 #square-s-2 {
-  top: 14rem;
-  left: 14rem;
+  top: 15rem;
+  left: 16rem;
   z-index: 3;
 }
 
@@ -154,19 +152,19 @@
 
 @-webkit-keyframes anim-sq-l-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-l-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-l-2 {
@@ -186,19 +184,19 @@
 
 @-webkit-keyframes anim-sq-l-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-l-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-l-3 {
@@ -218,19 +216,19 @@
 
 @-webkit-keyframes anim-sq-l-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-l-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-l-4 {
@@ -250,19 +248,19 @@
 
 @-webkit-keyframes anim-sq-l-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-l-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-l-5 {
@@ -282,19 +280,19 @@
 
 @-webkit-keyframes anim-sq-l-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-l-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-m-1 {
@@ -314,19 +312,19 @@
 
 @-webkit-keyframes anim-sq-m-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-m-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-m-2 {
@@ -346,19 +344,19 @@
 
 @-webkit-keyframes anim-sq-m-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-m-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-m-3 {
@@ -378,19 +376,19 @@
 
 @-webkit-keyframes anim-sq-m-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-m-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-m-4 {
@@ -410,19 +408,19 @@
 
 @-webkit-keyframes anim-sq-m-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-m-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-m-5 {
@@ -442,19 +440,19 @@
 
 @-webkit-keyframes anim-sq-m-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-m-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-s-1 {
@@ -474,19 +472,19 @@
 
 @-webkit-keyframes anim-sq-s-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-s-1 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-s-2 {
@@ -506,19 +504,19 @@
 
 @-webkit-keyframes anim-sq-s-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-s-2 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-s-3 {
@@ -538,19 +536,19 @@
 
 @-webkit-keyframes anim-sq-s-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-s-3 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-s-4 {
@@ -570,19 +568,19 @@
 
 @-webkit-keyframes anim-sq-s-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-s-4 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 #square-s-5 {
@@ -602,19 +600,19 @@
 
 @-webkit-keyframes anim-sq-s-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 
 @keyframes anim-sq-s-5 {
   from {
-    transform: rotate(-45deg) translate(2rem, -2rem);
+    transform: rotate(-45deg) translate(1.5rem, -1.5rem);
   }
   to {
-    transform: rotate(-45deg) translate(-2rem, 2rem);
+    transform: rotate(-45deg) translate(-1.5rem, 1.5rem);
   }
 }
 * {
