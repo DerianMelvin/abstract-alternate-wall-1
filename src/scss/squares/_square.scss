@@ -8,31 +8,30 @@
 
 // --- Shapes
 .square {
+  @include shapeSize(1);
+
   position: absolute;
 
-  width: $size;
-  height: $size;
+  box-shadow: 0px 12px 100px rgba(0, 0, 0, 0.5);
+  transform: rotate(-45deg);
 }
 
 // --- Sizes
 .size-l {
-  width: calc(#{$size} * 1.8);
-  height: calc(#{$size} * 1.8);
+  @include shapeSize(2);
 }
 
 .size-m {
-  width: calc(#{$size} * 1.4);
-  height: calc(#{$size} * 1.4);
+  @include shapeSize(1.5);
 }
 
 .size-s {
-  width: calc(#{$size} * 0.9);
-  height: calc(#{$size} * 0.9);
+  @include shapeSize(0.9);
 }
 
 // --- Color themes
 .theme-set-1 {
-  @include square-theme-1;
+  background: $theme-1;
 }
 
 /*
