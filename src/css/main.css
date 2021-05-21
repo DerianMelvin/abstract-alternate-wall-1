@@ -36,8 +36,16 @@
   height: calc(18rem);
 }
 
-.theme-set-1 {
+.theme-color-normal {
   background: #1029b1;
+}
+
+.theme-color-dark {
+  background: #0d2191;
+}
+
+.theme-color-light {
+  background: #132ec9;
 }
 
 /*
@@ -136,8 +144,8 @@
 }
 
 #square-l-1 {
-  -webkit-animation: anim-sq-l-1 2.7s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
-          animation: anim-sq-l-1 2.7s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+  -webkit-animation: anim-sq-l-1 2.72s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
+          animation: anim-sq-l-1 2.72s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-1 {
@@ -192,8 +200,8 @@
   }
 }
 #square-l-2 {
-  -webkit-animation: anim-sq-l-2 2.5s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
-          animation: anim-sq-l-2 2.5s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+  -webkit-animation: anim-sq-l-2 2.55s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
+          animation: anim-sq-l-2 2.55s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-2 {
@@ -231,8 +239,8 @@
   }
 }
 #square-l-3 {
-  -webkit-animation: anim-sq-l-3 2.4s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
-          animation: anim-sq-l-3 2.4s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+  -webkit-animation: anim-sq-l-3 2.43s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
+          animation: anim-sq-l-3 2.43s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-3 {
@@ -270,8 +278,8 @@
   }
 }
 #square-l-4 {
-  -webkit-animation: anim-sq-l-4 2.6s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
-          animation: anim-sq-l-4 2.6s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+  -webkit-animation: anim-sq-l-4 2.67s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
+          animation: anim-sq-l-4 2.67s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-4 {
@@ -309,8 +317,8 @@
   }
 }
 #square-l-5 {
-  -webkit-animation: anim-sq-l-5 2.3s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
-          animation: anim-sq-l-5 2.3s ease-in-out 0s infinite alternate, theme-cycle-normal 40s linear infinite;
+  -webkit-animation: anim-sq-l-5 2.31s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
+          animation: anim-sq-l-5 2.31s ease-in-out 0s infinite alternate, theme-cycle-normal 42s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-l-5 {
@@ -348,8 +356,8 @@
   }
 }
 #square-m-1 {
-  -webkit-animation: anim-sq-m-1 2.6s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
-          animation: anim-sq-m-1 2.6s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+  -webkit-animation: anim-sq-m-1 2.24s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
+          animation: anim-sq-m-1 2.24s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-1 {
@@ -404,8 +412,8 @@
   }
 }
 #square-m-2 {
-  -webkit-animation: anim-sq-m-2 2.3s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
-          animation: anim-sq-m-2 2.3s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+  -webkit-animation: anim-sq-m-2 2.36s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
+          animation: anim-sq-m-2 2.36s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-2 {
@@ -443,8 +451,8 @@
   }
 }
 #square-m-3 {
-  -webkit-animation: anim-sq-m-3 2.5s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
-          animation: anim-sq-m-3 2.5s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+  -webkit-animation: anim-sq-m-3 2.52s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
+          animation: anim-sq-m-3 2.52s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-3 {
@@ -482,8 +490,8 @@
   }
 }
 #square-m-4 {
-  -webkit-animation: anim-sq-m-4 2.4s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
-          animation: anim-sq-m-4 2.4s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+  -webkit-animation: anim-sq-m-4 2.48s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
+          animation: anim-sq-m-4 2.48s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-4 {
@@ -521,8 +529,8 @@
   }
 }
 #square-m-5 {
-  -webkit-animation: anim-sq-m-5 2.7s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
-          animation: anim-sq-m-5 2.7s ease-in-out 0s infinite alternate, theme-cycle-dark 40s linear infinite;
+  -webkit-animation: anim-sq-m-5 2.76s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
+          animation: anim-sq-m-5 2.76s ease-in-out 0s infinite alternate, theme-cycle-dark 42s 0.3s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-m-5 {
@@ -560,8 +568,8 @@
   }
 }
 #square-s-1 {
-  -webkit-animation: anim-sq-s-1 2.3s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
-          animation: anim-sq-s-1 2.3s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+  -webkit-animation: anim-sq-s-1 2.74s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
+          animation: anim-sq-s-1 2.74s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-1 {
@@ -616,8 +624,8 @@
   }
 }
 #square-s-2 {
-  -webkit-animation: anim-sq-s-2 2.4s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
-          animation: anim-sq-s-2 2.4s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+  -webkit-animation: anim-sq-s-2 2.44s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
+          animation: anim-sq-s-2 2.44s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-2 {
@@ -655,8 +663,8 @@
   }
 }
 #square-s-3 {
-  -webkit-animation: anim-sq-s-3 2.6s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
-          animation: anim-sq-s-3 2.6s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+  -webkit-animation: anim-sq-s-3 2.61s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
+          animation: anim-sq-s-3 2.61s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-3 {
@@ -694,8 +702,8 @@
   }
 }
 #square-s-4 {
-  -webkit-animation: anim-sq-s-4 2.7s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
-          animation: anim-sq-s-4 2.7s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+  -webkit-animation: anim-sq-s-4 2.34s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
+          animation: anim-sq-s-4 2.34s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-4 {
@@ -733,8 +741,8 @@
   }
 }
 #square-s-5 {
-  -webkit-animation: anim-sq-s-5 2.5s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
-          animation: anim-sq-s-5 2.5s ease-in-out 0s infinite alternate, theme-cycle-light 40s linear infinite;
+  -webkit-animation: anim-sq-s-5 2.58s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
+          animation: anim-sq-s-5 2.58s ease-in-out 0s infinite alternate, theme-cycle-light 42s 0.6s linear infinite;
 }
 
 @-webkit-keyframes anim-sq-s-5 {
