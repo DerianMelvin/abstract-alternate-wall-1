@@ -30,8 +30,16 @@
 }
 
 // --- Color themes
-.theme-set-1 {
+.theme-color-normal {
   background: $theme-1-normal;
+}
+
+.theme-color-dark {
+  background: $theme-1-dark;
+}
+
+.theme-color-light {
+  background: $theme-1-light;
 }
 
 /*
