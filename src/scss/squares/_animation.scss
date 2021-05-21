@@ -3,7 +3,9 @@
 // $squares-l-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-l-anim {
   #square-l-#{$num} {
-    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-normal 40s linear infinite;
+    animation: 
+      $name $duration $timing $delay $iteration $direction, 
+      theme-cycle-normal 42s linear infinite;
   }
 
   @keyframes #{$name} {
@@ -37,7 +39,9 @@
 // $squares-m-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-m-anim {
   #square-m-#{$num} {
-    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-dark 40s linear infinite;
+    animation: 
+      $name $duration $timing $delay $iteration $direction, 
+      theme-cycle-dark 42s 0.3s linear infinite;
   }
 
   @keyframes #{$name} {
@@ -71,7 +75,9 @@
 // $squares-s-anim
 @each $num, $name, $duration, $timing, $delay, $iteration, $direction in $squares-s-anim {
   #square-s-#{$num} {
-    animation: $name $duration $timing $delay $iteration $direction, theme-cycle-light 40s linear infinite;
+    animation: 
+      $name $duration $timing $delay $iteration $direction, 
+      theme-cycle-light 42s 0.6s linear infinite;
   }
 
   @keyframes #{$name} {
